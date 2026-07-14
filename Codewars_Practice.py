@@ -1,5 +1,3 @@
-# 8 kyu
-# 1: Alternating Case
 def alternating_character(character):
     if character.isupper():
         character = character.lower()
@@ -18,13 +16,13 @@ def alternating_string(string):
     return result
 
 
-# 2: 5 without numbers
+
 def return_five():
     result = len("fifty")
     return result
 
 
-# 3: Crash Override
+
 FIRST_NAME = {
     "A": "Alice",
     "B": "Brian",
@@ -102,7 +100,7 @@ def alias_gen(f_name, l_name):
     return result
 
 
-# 4: Calculate Average
+
 def verify_int(value, value_type):
     if value_type == str:
         try:
@@ -152,25 +150,25 @@ def calculate_average(a_list):
         return a
 
 
-# 5: Semi-Optional
+
 def wrap(value):
     return {"value": value}
 
 
-# 6: Grasshopper - Summation
+
 def summation(num):
     """arithmetic series and formula for summation of natural numbers..."""
     result = (num * (num + 1)) / 2
     return result
 
 
-# 7: Grasshopper - Terminal game move function
+
 def move(org_pos, roll):
     new_pos = org_pos + 2 * roll
     return new_pos
 
 
-# 8: Do you speak English?
+
 def convert_lower(string):
     string = str(string)
     string = string.lower()
@@ -184,7 +182,7 @@ def test_english(a):
         return False
 
 
-# 9: Simple Multiplication
+
 def divisible_by_2(num):
     try:
         if num % 2 == 0:
@@ -210,7 +208,7 @@ def simple_output(num_2):
         return "incorrect input"
 
 
-# 10: Hex to Decimal
+
 dict_hex_dec = {
     "0": 0,
     "1": 1,
@@ -258,7 +256,7 @@ def hex_to_dec(hex_num):
         return "Sorry please input correct data type"
 
 
-# 11: Find the first non-consecutive number
+
 def verify_all_num(num_list):
     x = 1
     for i in num_list:
@@ -284,7 +282,7 @@ def identify_different_number_in_consecutive_chain(num_list):
         return "Not all the numbers are of the integer data type..."
 
 
-# 12: The falling speed of petals
+
 def sakura_fall(v):
     if v <= 0:
         return 0
@@ -293,7 +291,7 @@ def sakura_fall(v):
         return time_taken
 
 
-# 13: Was the package received before it was sent? (simplified)
+
 def ensure_time_correct(time):
     while not 0 <= time < 24:
         if time >= 24:
@@ -325,7 +323,7 @@ def was_package_received_yesterday(tz_from, tz_to, start, duration):
             return False
 
 
-# 14: Grasshopper - Terminal Game #1
+
 class Hero(object):
     def __init__(self, name="Hero"):
         self.name = name
@@ -335,14 +333,14 @@ class Hero(object):
         self.experience = 0
 
 
-# 15: Remove first and last character
+
 def remove_char(s):
     altered = s[1:-1]
     return altered
 
 
-# 7 kyu
-# 1: You're a square
+
+
 def true_float_or_not(n):
     if n[-2:] == ".0":
         return True
@@ -394,7 +392,7 @@ def is_square_2(n):
         return factor_through(n)
 
 
-# 2: Square Every Digit
+
 def loopy_code(n):
     n = int(n)
     n **= 2
@@ -414,14 +412,14 @@ def square_digits(num):
         return int(result)
 
 
-# 3: Formatting Decimal Places #1
+
 def two_decimal_places(number):
     string_num = f"{number}"
     important = string_num.index(".")
     return float(string_num[: important + 3])
 
 
-# 4: Two Oldest Ages
+
 def remove_all_instances(item, items_list):
     while item in items_list:
         items_list.remove(item)
@@ -435,7 +433,7 @@ def two_oldest_ages(ages):
     return [age_2, age_1]
 
 
-# 5: Sum of two lowest positive integers
+
 def sum_two_smallest_numbers(numbers):
     num_1 = min(numbers)
     numbers = remove_all_instances(num_1, numbers)
@@ -449,7 +447,7 @@ def sum_two_smallest_numbers_2(numbers):
     return sum(numbers_2)
 
 
-# 6: Product Array
+
 def calculate_product(num_list):
     full_product = 1
     for i in num_list:
@@ -471,7 +469,7 @@ def product_array(num_list):
     return product_list
 
 
-# 7: Ones and Zeros
+
 def each_digit_computation(element, power):
     value = element * (2**power)
     return value
@@ -486,7 +484,7 @@ def binary_array_to_number(arr):
     return result
 
 
-# 8: Minimise Sum of Array
+
 def remove_used_elements(list_0, no_1, no_2):
     list_0.remove(no_1)
     list_0.remove(no_2)
@@ -501,8 +499,6 @@ def min_sum(arr):
         remove_used_elements(arr, num_1, num_2)
     return result
 
-
-# 9: Highest and Lowest
 
 
 def detect_each_number(element, mixed_str):
@@ -537,7 +533,7 @@ def high_and_low(assorted_str):
     return f"{high_num} {low_num}"
 
 
-# 10: Balanced Number
+
 def adding_up(result, integer):
     result += integer
     return result
@@ -584,7 +580,7 @@ def balanced_num(number):
             return comparison_check(result_3, result_4)
 
 
-# 11: Determine if the poker hand is flush
+
 def comparison_test(test_suit_a, test_suit_b):
     if test_suit_a != test_suit_b:
         return False
@@ -605,7 +601,7 @@ def is_flush(cards):
     return result
 
 
-# 12: Building Strings From a Hash
+
 def solution(pairs):
     result = ""
     for key, value in pairs.items():
@@ -614,7 +610,7 @@ def solution(pairs):
     return result
 
 
-# 13: Find the capital
+
 def append_index(index, index_list):
     index_list.append(index)
     return index_list
@@ -646,7 +642,7 @@ def indexes_capitals(random_str):
     return capital_index_list
 
 
-# 14: Disemvowel Trolls
+
 def dealing_with_single_vowel_occurrence_in_string(string__, vowel__):
     temp_index = string__.index(vowel__)
     string__ = string__[:temp_index] + string__[temp_index + 1 :]
@@ -666,7 +662,7 @@ def disemvowel(string):
     return string
 
 
-# 15: Shortest word
+
 def detect_word_lengths_in_string(string_):
     temp_index = string_.index(" ")
     word = string_[:temp_index]
@@ -696,7 +692,7 @@ def find_short(s):
     return min(dict_lengths_words.values())
 
 
-# 16: Isograms
+
 def check_duplicate_character_in_string(character_, string__):
     if character_ in string__:
         return False
@@ -724,7 +720,7 @@ def is_isogram(string):
     return True
 
 
-# 17: Vowel Count
+
 def vowel_count_of_one_vowel(sentence_, vowel_):
     temp_count = sentence_.count(vowel_)
     return temp_count
@@ -744,7 +740,7 @@ def get_count(sentence):
     return sum(dict_count.values())
 
 
-# 18: The Office I - Outed
+
 def each_employee_score(key_, value_, boss_, total_score_):
     if key_ != boss_:
         total_score_ += value_
@@ -769,7 +765,7 @@ def outed(meet, boss):
     return check_happiness_rating(happiness_rating)
 
 
-# 19: Categorise New Member
+
 def each_member_categorisation(member_info, output_):
     if member_info[0] >= 55 and member_info[1] > 7:
         output_.append("Senior")
@@ -785,7 +781,7 @@ def open_or_senior(data):
     return output
 
 
-# 20: Invalid Input - Error Handling #1
+
 def total_number_of_vowels(words_):
     vowel_count = 0
     vowels = ["a", "e", "i", "o", "u"]
@@ -816,7 +812,7 @@ def get_count_2(words=""):
     return {"vowels": vowel_count, "consonants": consonant_count}
 
 
-# 21: User class for Banking System
+
 class User:
     def __init__(self, name, balance, checking_account=True):
         self.name = name
@@ -845,8 +841,7 @@ class User:
         return f"{self.name} has {self.balance}."
 
 
-# 6 kyu
-# 1: Duplicate Encoder
+
 def replace_error_inducing_characters(word_):
     word_ = word_.lower()
     if ")" in word_:
@@ -879,7 +874,7 @@ def duplicate_encode(word):
     return word
 
 
-# 2: Break camelCase
+
 def splitting_and_joining_using_capital_indexes(s__, result__, temp_index_):
     result__ += s__[:temp_index_] + " " + s__[temp_index_]
     s__ = s__[temp_index_ + 1 :]
@@ -906,7 +901,7 @@ def solution_2(s):
     return s
 
 
-# 3: Array.diff
+
 def edge_cases(a_, b_):
     if not a_:
         return []
@@ -935,7 +930,7 @@ def array_diff(a, b):
         return result
 
 
-# 4: Sort the odd
+
 def remove_odds_in_source_array(source_array__, char_):
     temp_index = source_array__.index(char_)
     source_array__[temp_index] = ""
@@ -981,7 +976,7 @@ def sort_array(source_array):
     return source_array
 
 
-# 5: Find the missing letter
+
 def check_two_adjacent_elements_in_alphabet(check_, alphabet_, chars_, loop_no):
     if check_ not in alphabet_:
         temp_index = alphabet_.index(chars_[loop_no - 1]) + 1
@@ -998,7 +993,7 @@ def find_missing_letter(chars):
     return "Unreachable code (for code warriors)."
 
 
-# 6: The Supermarket Queue
+
 def queue_time(customers, n):
     if not customers:
         return 0
@@ -1015,7 +1010,6 @@ def queue_time(customers, n):
 
 
 def assign_customer_to_till(time_at_each_till, customer_time):
-    # Find the till with the minimum time, update it, and return the updated tills.
     quick_customer = min(time_at_each_till)
     temp_index = time_at_each_till.index(quick_customer)
     time_at_each_till[temp_index] += customer_time
@@ -1034,7 +1028,7 @@ def queue_time_2(customers, n):
         return max(time_at_each_till)
 
 
-# 7: Find the odd int
+
 def test_new_num(seq_, char, used_num_):
     count = seq_.count(char)
     if count % 2 != 0:
@@ -1054,7 +1048,7 @@ def find_it(seq):
     return "Unreachable code"
 
 
-# 8: Unique in Order
+
 def verify_unique_character(sequence_, char, result_):
     if sequence_[char - 1] != sequence_[char]:
         result_.insert(char, sequence_[char - 1])
@@ -1072,7 +1066,7 @@ def unique_in_order(sequence=""):
         return result
 
 
-# 9: Counting Duplicates
+
 def duplicate_count(text):
     dup_char, text = [], text.lower()
     for i in text:
@@ -1093,7 +1087,7 @@ def duplicate_count_2(text):
     return len(dict_dup_char)
 
 
-# 10: Find the unique number
+
 def find_uniq(arr):
     arr = sorted(arr)
     if arr[0] != arr[1]:
@@ -1102,7 +1096,7 @@ def find_uniq(arr):
         return arr[-1]
 
 
-# 11: Urban Dictionary
+
 class WordDictionary:
     def __init__(self):
         self.words = []
@@ -1136,7 +1130,7 @@ class WordDictionary:
             return False
 
 
-# 12: Potion Class 101
+
 class Potion:
     def __init__(self, color, volume):
         self.color = color
@@ -1157,7 +1151,7 @@ class Potion:
         return Potion(result, total_volume)
 
 
-# 13: Parity bit - Error detecting code
+
 def dealing_with_empty_spaces_and_multiple_strings_in_a_binary_string(
     binary_, list_of_binary_
 ):
@@ -1196,7 +1190,7 @@ def parity_bit(binary):
         return result.rstrip()
 
 
-# 14: Errors: histogram
+
 def check_error_char_exist_and_attach_it_and_number_to_dict(s_, char_, dict_of_errors_):
     if s_.count(char_) > 0:
         dict_of_errors_[char_] = s_.count(char_)
@@ -1220,7 +1214,7 @@ def hist(s):
     return result[:-1]
 
 
-# 15: Legal Chess Position to FEN String
+
 def to_fen(board):
     if len(board) != 8 or any(len(row) != 8 for row in board):
         return "Invalid"
@@ -1275,7 +1269,7 @@ def to_fen(board):
     return result[:-1]
 
 
-# 16: 80's Kids #7: She's a Small Wonder
+
 class Robot:
     def __init__(self):
         self.words_learned = []
@@ -1301,7 +1295,7 @@ class Robot:
             return None
 
 
-# 17: Remove a specified element of an array
+
 def select_subarray(arr):
     dict_sub_arr, abs_val, prod = {}, "", 1
     for i in range(1, len(arr) + 1):
@@ -1331,7 +1325,7 @@ def select_subarray(arr):
     return result
 
 
-# 18: Even Odd Pattern #1
+
 def even_odd(arr):
     result = arr[0]
     for i in range(1, len(arr)):
