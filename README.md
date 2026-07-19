@@ -3,8 +3,8 @@ Range of python coding practice by solving problems on Codewars and building a b
 
 
 # Requirements
-Recommended IDE: PyCharm (although any text/code editor or IDE would work fine)
-Python version: 3.8+ (although it can technically use Python 3.6+, but possibly unsafe)
+* Recommended IDE: PyCharm (although any text/code editor or IDE would work fine)
+* Python version: 3.8+ (although it can technically use Python 3.6+, but possibly unsafe)
 
 
 # Instructions and Terminal Commands
@@ -19,9 +19,8 @@ This repository is primarily for learning and practice, not production use.
 Some solutions prioritise clarity and experimentation over optimal efficiency.
 Code is continuously evolving as new Kata are solved.
 
-
-# About & Features
 ---
+# About & Features
 The goal of this repo is to improve problem-solving skills, strengthen Python fundamentals, and practice writing clean, modular functions.
 
 ## 🚀 Features
