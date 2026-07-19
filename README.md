@@ -1,6 +1,6 @@
 # Python Coding Tasks & Mini Bingo Project
 
-A collection of Python programming exercises completed through **Codewars**, alongside a terminal-based **Mini Bingo Game** built to strengthen problem-solving, Python fundamentals, and object-oriented programming skills.
+A collection of Python programming exercises completed through **Codewars**, alongside a terminal-based **Mini Bingo Game** built to strengthen problem-solving skills, Python fundamentals, and object-oriented programming.
 
 ---
 
@@ -15,14 +15,14 @@ A collection of Python programming exercises completed through **Codewars**, alo
 * Example Gameplay
 * Notes
 * Future Improvements
-* License
+* Licence
 
 ---
 
 ## Requirements
 
-* **Python:** 3.8 or later (Python 3.6+ may also work, but Python 3.8+ is recommended)
-* **Recommended IDE:** PyCharm (any Python-compatible IDE or text editor can be used)
+* **Python:** Version 3.8 or later (Python 3.6+ may also work, but Python 3.8+ is recommended)
+* **Recommended IDE:** PyCharm (although any Python-compatible IDE or text editor can be used)
 
 ---
 
@@ -63,18 +63,18 @@ Python_Coding_Tasks_and_Python_Mini_Project/
 ├── Codewars_Practice.py      # Collection of Codewars kata solutions
 ├── Mini_Bingo_Game.py        # Terminal-based Bingo game
 ├── README.md
-└── LICENSE                   # (Optional)
+└── LICENSE                   # Optional
 ```
 
 ---
 
-# Overview
+## Overview
 
 This repository serves as a personal Python practice project aimed at improving:
 
-* Problem-solving ability
+* Problem-solving skills
 * Python programming fundamentals
-* Clean and modular coding practices
+* Writing clean and modular code
 * Object-oriented programming
 * Algorithmic thinking
 
@@ -82,13 +82,13 @@ It combines coding challenge solutions from Codewars with a small interactive te
 
 ---
 
-# Features
+## Features
 
-## 🧩 Codewars Practice (`Codewars_Practice.py`)
+### 🧩 Codewars Practice (`Codewars_Practice.py`)
 
 A growing collection of Python solutions covering a wide range of programming concepts.
 
-### 🔹 8 kyu – Python Fundamentals
+#### 🔹 8 kyu – Python Fundamentals
 
 Includes exercises involving:
 
@@ -101,7 +101,7 @@ Includes exercises involving:
 
 ---
 
-### 🔹 7 kyu – Intermediate Programming
+#### 🔹 7 kyu – Intermediate Programming
 
 Includes topics such as:
 
@@ -114,7 +114,7 @@ Includes topics such as:
 
 ---
 
-### 🔹 6 kyu – Advanced Problem Solving
+#### 🔹 6 kyu – Advanced Problem Solving
 
 Includes more complex programming challenges involving:
 
@@ -122,16 +122,16 @@ Includes more complex programming challenges involving:
 * Queue simulations
 * Sorting and reconstruction algorithms
 * Binary parity checking
-* Chess board validation and FEN conversion
+* Chessboard validation and FEN conversion
 * Custom data structures (e.g. `WordDictionary`, `Potion`, `Robot`)
 
 ---
 
-## 🎮 Mini Bingo Game (`Mini_Bingo_Game.py`)
+### 🎮 Mini Bingo Game (`Mini_Bingo_Game.py`)
 
 A terminal-based interactive Bingo simulation where users can customise the game before playing.
 
-### Features
+#### Features
 
 * Choose the bingo card size
 * Select the range of possible numbers
@@ -175,7 +175,7 @@ Current score: 1 / 4
 Potential future additions include:
 
 * Solving higher-difficulty Codewars kata (5 kyu and above)
-* Splitting Codewars solutions into multiple modules
+* Organising Codewars solutions into multiple modules
 * Adding unit tests using `pytest`
 * Improving documentation and inline comments
 * Adding type hints throughout the project
@@ -183,7 +183,8 @@ Potential future additions include:
 
 ---
 
-## License
+## Licence
 
-This project is available under the MIT License. Feel free to modify or adapt it for learning purposes.
+This project is available under the MIT Licence. Feel free to use, modify and adapt it for learning purposes.
+
 
