@@ -1,4 +1,4 @@
-# Python Coding Tasks & Mini Bingo Project
+# Python Coding Tasks and Python Mini Bingo Project
 
 A collection of Python programming exercises completed through **Codewars**, alongside a terminal-based **Mini Bingo Game** built to strengthen problem-solving skills, Python fundamentals, and object-oriented programming.
 
